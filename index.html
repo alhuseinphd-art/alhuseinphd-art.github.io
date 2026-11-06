@@ -51,8 +51,13 @@ h2{font-family:Fraunces,serif;font-size:30px;margin-bottom:22px}
 .about li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--muted)}
 .about li b{color:var(--ink);font-weight:600}
 blockquote{border-left:3px solid var(--accent);padding:6px 0 6px 18px;font-family:Fraunces,serif;font-size:21px}
+.tl-row,.pub{display:grid;grid-template-columns:170px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}
+.tl h3,.pub h3{font-size:17px;margin-bottom:4px}
+.tl p,.pub p{color:var(--muted);font-size:15px}
+.when,.yr{color:var(--accent);font-weight:600;font-size:14px;padding-top:2px}
+.pub .more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;text-decoration:none}
 footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
-@media (max-width:720px){ .grid{grid-template-columns:1fr} nav ul{display:none} .about{grid-template-columns:1fr} header{padding:56px 0 40px} }
+@media (max-width:720px){ .grid{grid-template-columns:1fr} .tl-row,.pub{grid-template-columns:1fr;gap:4px} nav ul{display:none} .about{grid-template-columns:1fr} header{padding:56px 0 40px} }
 </style>
 </head>
 <body>
@@ -61,16 +66,16 @@ footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);f
   <a class="brand" href="#">A. Gasmallah</a>
   <ul>
     <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#publications">Publications</a></li>
     <li><a href="#workshops">Workshops</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#research">Research</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </div></nav>
 
 <header><div class="wrap">
-  <div class="eyebrow">Educator · Researcher · EdTech builder · Doha, Qatar</div>
-  <h1>Dr. Alhusein Gasmallah<span class="ar" lang="ar" dir="rtl">د. الحسين تاج الدين قسم الله</span></h1>
+  <div class="eyebrow">PhD Applied Linguistics · English Instructor · Doha, Qatar</div>
+  <h1>Dr. Alhusein Gasmallah<span class="ar" lang="ar" dir="rtl">د. الحسين تاج الدين أحمد قسم الله</span></h1>
   <p class="lead">I help teachers, postgraduate students and researchers work smarter with AI and digital research tools, from the first literature search to a finished, well-written review.</p>
   <div class="btns">
     <a class="btn primary" href="#workshops">Explore workshops</a>
@@ -82,16 +87,47 @@ footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);f
 <section id="about"><div class="wrap about">
   <div>
     <h2>About</h2>
-    <p>I am an English language educator with a background in EFL and teacher education (PGCE). My work sits where language teaching, research methods and educational technology meet. I design hands-on workshops and practical, reusable resources that make research and AI tools approachable for everyone.</p>
+    <p>I am an English language instructor and applied linguist with more than 13 years of teaching experience in Sudan and Qatar. I hold a PhD in Applied Linguistics from Sudan University of Science and Technology. I focus on each learner's needs and on interactive, safe learning environments, and I help teachers and researchers work smarter with AI and digital research tools.</p>
     <br>
     <blockquote>AI tools should support the researcher's judgement, not replace it.</blockquote>
   </div>
   <ul>
+    <li><b>Current roles</b><br>Community College of Qatar · Ministry of Education and Higher Education</li>
     <li><b>Based in</b><br>Doha, Qatar</li>
-    <li><b>Specialisms</b><br>EFL · Academic writing · Research skills · AI in education</li>
+    <li><b>Certified</b><br>Google Certified Educator L1 &amp; L2 · Gemini Certified Educator &amp; Faculty</li>
+    <li><b>Specialisms</b><br>EFL · Applied linguistics · Research skills · AI in education</li>
     <li><b>Languages</b><br>Arabic · English</li>
-    <li><b>Audience</b><br>Postgraduates, researchers, lecturers and teachers</li>
   </ul>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2>Experience</h2>
+  <div class="tl">
+    <div class="tl-row"><span class="when">Aug 2024 – present</span><div><h3>English Language Instructor (adjunct)</h3><p>Community College of Qatar, Doha</p></div></div>
+    <div class="tl-row"><span class="when">Aug 2015 – present</span><div><h3>English Language Teacher (full time)</h3><p>Ministry of Education and Higher Education, Doha</p></div></div>
+    <div class="tl-row"><span class="when">Sep 2013 – Jul 2015</span><div><h3>Associate Lecturer (part time)</h3><p>Sudan University of Science and Technology, Khartoum</p></div></div>
+    <div class="tl-row"><span class="when">Feb 2013 – Mar 2015</span><div><h3>English Language Teacher, IGCSE section</h3><p>British Educational Schools, Khartoum</p></div></div>
+  </div>
+  <h2 style="margin-top:44px">Education</h2>
+  <div class="grid">
+    <div class="card"><h3>Ph.D. Applied Linguistics</h3><p>Sudan University of Science and Technology</p><div class="meta">2017</div></div>
+    <div class="card"><h3>M.A. English Language Teaching</h3><p>Sudan University of Science and Technology</p><div class="meta">2014</div></div>
+    <div class="card"><h3>B.Ed. English Language</h3><p>Sudan University of Science and Technology</p><div class="meta">2012</div></div>
+    <div class="card"><h3>Google for Education</h3><p>Google Certified Educator Level 1 &amp; Level 2 · Gemini Certified Educator · Gemini Certified Faculty</p><div class="meta">2026 · valid to 2029</div></div>
+    <div class="card" style="grid-column:1/-1"><h3>Teaching certifications</h3><p>ITTT TEFL/TESOL (2019) · TKT CLIL, Band 3 · TKT Modules 1–3, British Council · Language Assessment · SPSS</p><div class="meta">Professional development</div></div>
+  </div>
+</div></section>
+
+<section id="publications"><div class="wrap">
+  <h2>Publications</h2>
+  <p style="color:var(--muted);margin:-10px 0 20px">All in <em>European Academic Research</em> (ISSN 2286-4822)</p>
+  <div class="pubs">
+    <div class="pub"><span class="yr">2022</span><div><h3>Rhetorical Analysis of Using Artificial Intelligence in Education</h3><p>Vol. 10, Issue 9, pp. 3563–3566</p><a class="more" href="https://euacademic.org/UploadArticle/5672.pdf">Read PDF →</a></div></div>
+    <div class="pub"><span class="yr">2021</span><div><h3>Changes in the Presentation of Chaucer's Texts: <em>Canterbury Tales</em> and the Victorian Adaptation of its Chaucer for Children: <em>A Golden Key</em></h3><p>Vol. 9, Issue 6, pp. 3652–3666</p><a class="more" href="https://euacademic.org/UploadArticle/5094.pdf">Read PDF →</a></div></div>
+    <div class="pub"><span class="yr">2020</span><div><h3>The Psychological Transformation of "Araby"</h3><p>Vol. 8, Issue 2, pp. 865–870</p><a class="more" href="https://euacademic.org/UploadArticle/4371.pdf">Read PDF →</a></div></div>
+    <div class="pub"><span class="yr">2017</span><div><h3>The Effect of Space (Proxemic) on Teachers–Students' Interaction in the Classroom</h3><p>With Dr. Mahmoud Ali Ahmed · Vol. 4, Issue 10, pp. 8364–8380</p><a class="more" href="https://euacademic.org/UploadArticle/2962.pdf">Read PDF →</a></div></div>
+    <div class="pub"><span class="yr">2016</span><div><h3>Investigating Teachers' Awareness of NVC Use in the EFL Classroom in the Teaching Process</h3><p>Vol. 4, Issue 9, pp. 7264–7275</p><a class="more" href="https://euacademic.org/UploadArticle/2894.pdf">Read PDF →</a></div></div>
+  </div>
 </div></section>
 
 <section id="workshops"><div class="wrap">
@@ -104,28 +140,14 @@ footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);f
   </div>
 </div></section>
 
-<section id="projects"><div class="wrap">
-  <h2>Open resources</h2>
-  <div class="grid">
-    <div class="card"><h3>AI Research Tools Workshops</h3><p>Slides, worksheets and facilitator notes for the Litmaps and Elicit workshops.</p><a class="more" href="https://github.com/alhuseinphd-art/ai-research-tools-workshops">View repository →</a></div>
-    <div class="card"><h3>Research Journey Toolkit</h3><p>A progress tracker and a comprehensive evaluation rubric for postgraduate projects.</p><a class="more" href="https://github.com/alhuseinphd-art/research-journey-toolkit">View repository →</a></div>
-    <div class="card"><h3>AI for Educators</h3><p>Beginner guides and a prompt library for teachers using AI assistants, in English and Arabic.</p><a class="more" href="https://github.com/alhuseinphd-art/ai-for-educators">View repository →</a></div>
-    <div class="card"><h3>DELTA Reading List</h3><p>A module-by-module reading list for English teachers preparing for the Cambridge DELTA.</p><a class="more" href="https://github.com/alhuseinphd-art/delta-reading-list">View repository →</a></div>
-  </div>
-</div></section>
-
 <section id="research"><div class="wrap">
   <h2>Research interests</h2>
   <div class="pills">
-    <span class="pill">AI in language learning</span><span class="pill">Automated feedback</span><span class="pill">Writing accuracy</span><span class="pill">EFL university students</span><span class="pill">Assessment &amp; feedback</span><span class="pill">Blended learning</span><span class="pill">Research methods</span>
+    <span class="pill">AI in education</span><span class="pill">Non-verbal communication</span><span class="pill">Proxemics &amp; classroom interaction</span><span class="pill">Literature in ELT</span><span class="pill">Automated feedback</span><span class="pill">EFL writing</span><span class="pill">Research methods</span>
   </div>
-  <!-- TODO: add publications here
-  <h2 style="margin-top:40px">Publications</h2>
-  <div class="card"><h3>Title</h3><p>Journal, Year. <a href="https://doi.org/...">DOI</a></p></div>
-  -->
-  <h2 style="margin-top:40px">Tools I teach</h2>
+  <h2 style="margin-top:40px">Tools</h2>
   <div class="pills">
-    <span class="pill">Claude</span><span class="pill">Elicit</span><span class="pill">Litmaps</span><span class="pill">Google Scholar</span><span class="pill">Google Workspace</span><span class="pill">Notion</span><span class="pill">LaTeX</span><span class="pill">Canva</span>
+    <span class="pill">Claude</span><span class="pill">Elicit</span><span class="pill">Litmaps</span><span class="pill">SPSS</span><span class="pill">PowerPoint</span><span class="pill">Excel</span><span class="pill">Word</span><span class="pill">Access</span><span class="pill">Gemini</span><span class="pill">Google Workspace</span><span class="pill">Canva</span>
   </div>
 </div></section>
 
